@@ -1,0 +1,46 @@
+body {
+    font-family: "PT Sans Caption", serif;
+    --primary-color: rgb(31, 38, 103);
+    color: var(--primary-color);
+}
+
+*::selection {
+    color: white;
+    background: var(--primary-color);
+}
+
+
+h1 {
+    font-family: "Pacifico", serif;
+    transition: text-shadow 0.3s;
+
+    &:hover {
+        text-shadow: -1px 0px 20px rgb(30 40 210 / 59%);
+    }
+}
+
+h2 {
+    background: linear-gradient(140deg, #2162b1 0%, #139bb6 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+}
+
+#form {
+    --bs-border-style: dotted;
+    --bs-border-width: 3px;
+}
+
+.toast-container {
+    left: 23px;
+    bottom: 18px;
+}
+
+tr{
+    vertical-align: middle;
+}
